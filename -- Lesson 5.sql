@@ -7,3 +7,4 @@
 SELECT
     LAST_NAME || ' earns $' || TO_CHAR(SALARY)||' monthly but wants $'|| TO_CHAR(3*SALARY)|| '.' AS "Dream Salaries"
 FROM EMPLOYEES;
+
